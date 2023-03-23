@@ -12,7 +12,7 @@ if [ $(id -u) != "0" ]; then
     exit 1
 fi
 
-REQUEST_SERVER="https://github.com/Lozy/danted"
+REQUEST_SERVER="https://raw.githubusercontent.com/Lozy/danted/master/install.sh"
 SCRIPT_SERVER=""
 SYSTEM_RECOGNIZE=""
 
