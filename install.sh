@@ -12,7 +12,7 @@ if [ $(id -u) != "0" ]; then
     exit 1
 fi
 
-REQUEST_SERVER="https://github.com/Lozy/danted"
+REQUEST_SERVER="https://public.sockd.info"
 SCRIPT_SERVER=""
 SYSTEM_RECOGNIZE=""
 
