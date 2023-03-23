@@ -12,8 +12,8 @@ if [ $(id -u) != "0" ]; then
     exit 1
 fi
 
-REQUEST_SERVER="https://public.sockd.info"
-SCRIPT_SERVER=""
+REQUEST_SERVER=""
+SCRIPT_SERVER="https://public.sockd.info"
 SYSTEM_RECOGNIZE=""
 
 [ "$1" == "--no-github" ] && REQUEST_SERVER=${SCRIPT_SERVER}
