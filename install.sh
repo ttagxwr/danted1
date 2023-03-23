@@ -12,7 +12,7 @@ if [ $(id -u) != "0" ]; then
     exit 1
 fi
 
-REQUEST_SERVER="https://github.com/Lozy/danted/master"
+REQUEST_SERVER="https://github.com/ttagxwr/danted1"
 SCRIPT_SERVER=""
 SYSTEM_RECOGNIZE=""
 
